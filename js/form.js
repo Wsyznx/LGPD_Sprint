@@ -1,6 +1,4 @@
 
-//class contato
-
 class contato {
     constructor(nome, email, telefone, tipo, mensagem, aceitouTermos, aceitouNewsletter) {
         this.nome = nome;
@@ -8,7 +6,7 @@ class contato {
         this.telefone = telefone;
         this.tipo = tipo;
         this.mensagem = mensagem;
-
+        
         this.aceitouTermos = aceitouTermos;
         this.aceitouNewsletter = aceitouNewsletter;
     }
